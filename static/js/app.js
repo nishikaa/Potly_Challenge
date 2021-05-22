@@ -1,6 +1,6 @@
   
 // Read in json file
-d3.json("/samples.json").then((importData) => {
+d3.json("samples.json").then((importData) => {
     var data=importData;
     console.log(data);
 
